@@ -19,115 +19,102 @@
 <header class="site-header">
   <nav class="nav wrap">
     <a href="index.html" class="brand">
-      <span class="brand-mark"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.5" fill="#04121f"/><ellipse cx="12" cy="12" rx="9" ry="3.6" fill="none" stroke="#04121f" stroke-width="1.6" transform="rotate(-28 12 12)"/></svg></span>
-      SkySpera <span class="brand-sub">Earth intelligence</span>
+      <img src="assets/img/mark-white.png" alt="SkySpera">
+      <span class="brand-text"><span class="brand-name">SkySpera</span><span class="brand-sub">Earth intelligence</span></span>
     </a>
     <ul class="nav-links">
-      <li><a href="industry-solutions/index.html">Industry Solutions</a></li>
-      <li><a href="data-sources/index.html">Data Sources</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="insights.html">Insights</a></li>
-      <li><a href="contact.html" class="btn btn-primary">Talk to us</a></li>
+      <li><a href="industry-solutions/index.html" class="navlink">Industry Solutions</a></li>
+      <li><a href="data-sources/index.html" class="navlink">Data Sources</a></li>
+      <li><a href="gallery.html" class="navlink">Gallery</a></li>
+      <li><a href="insights.html" class="navlink">Insights</a></li>
+      <li><a href="contact.html" class="btn btn-secondary">Talk to us</a></li>
     </ul>
-    <div class="nav-cta">
-      <a href="contact.html" class="btn btn-primary">Talk to us</a>
-      <button class="nav-toggle" aria-label="Toggle menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
-    </div>
+    <button class="nav-toggle" aria-label="Toggle menu"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
   </nav>
 </header>
 
 <main>
-  <section class="hero hero-small hero-noimg">
+  <section class="contact-hero">
+    <div class="radial-bg"></div>
     <div class="wrap">
-      <div class="eyebrow">Talk to us</div>
-      <h1>See your area, up to date.</h1>
-      <p class="lead">Tell us the ground you need to watch and we'll show you what SkySpera can do with it.</p>
-    </div>
-  </section>
-
-  <section>
-    <div class="wrap">
-      <div class="contact-layout">
-        <div class="form-card">
-          <form class="contact-form">
-            <div class="field">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" placeholder="Your name" required>
-            </div>
-            <div class="field">
-              <label for="org">Organisation</label>
-              <input type="text" id="org" name="org" placeholder="Your organisation">
-            </div>
-            <div class="field">
-              <label for="message">What ground do you need to watch?</label>
-              <textarea id="message" name="message" placeholder="Tell us about the area, industry, and what you're trying to solve." required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Talk to us</button>
-          </form>
-        </div>
-        <div>
-          <div class="contact-direct">
-            <div class="eyebrow">Direct</div>
-            <p>Prefer email? Reach us directly.</p>
-            <a href="mailto:contact@skyspera.com">contact@skyspera.com</a>
-          </div>
-          <ul class="contact-list">
-            <li><strong>No login, no app.</strong>Just tell us what you need to watch and we'll take it from there.</li>
-            <li><strong>Every industry, every layer.</strong>Mining, agriculture, infrastructure, utilities, fire, disaster response — and every data source behind them.</li>
-            <li><strong>Worldwide.</strong>A 2.5-day refresh and a 10-year archive, wherever your site is.</li>
-          </ul>
-        </div>
+      <div>
+        <div class="eyebrow">Talk to us</div>
+        <h1>See your area, up to date.</h1>
+        <p class="lead">Tell us the ground you need to watch and we'll show you what SkySpera can do with it.</p>
+        <a href="mailto:contact@skyspera.com" class="contact-email-link">contact@skyspera.com</a>
       </div>
+      <form class="contact-form">
+        <label>
+          <span class="field-label">Name</span>
+          <input type="text" id="name" name="name" required>
+        </label>
+        <label>
+          <span class="field-label">Organisation</span>
+          <input type="text" id="org" name="org">
+        </label>
+        <label>
+          <span class="field-label">Email</span>
+          <input type="email" id="email" name="email">
+        </label>
+        <label>
+          <span class="field-label">Area you need to watch</span>
+          <input type="text" id="area" name="area">
+        </label>
+        <label>
+          <span class="field-label">What you need to know</span>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary btn-block">Send</button>
+        <span class="contact-status">Or email contact@skyspera.com directly.</span>
+      </form>
     </div>
   </section>
 </main>
 
 <footer class="site-footer">
-  <div class="wrap">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <a href="index.html" class="brand">
-          <span class="brand-mark"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.5" fill="#04121f"/><ellipse cx="12" cy="12" rx="9" ry="3.6" fill="none" stroke="#04121f" stroke-width="1.6" transform="rotate(-28 12 12)"/></svg></span>
-          SkySpera <span class="brand-sub">Earth intelligence</span>
-        </a>
-        <p>Every major satellite and aerial source, fused into one continuously updated view of the ground.</p>
-      </div>
-      <div class="footer-col">
-        <h4>Industry Solutions</h4>
-        <a href="industry-solutions/mining-exploration.html">Mining &amp; Exploration</a>
-        <a href="industry-solutions/agriculture.html">Agriculture</a>
-        <a href="industry-solutions/fire-civil-protection.html">Fire &amp; Civil Protection</a>
-        <a href="industry-solutions/water-utilities.html">Water &amp; Utilities</a>
-        <a href="industry-solutions/infrastructure-construction.html">Infrastructure &amp; Construction</a>
-        <a href="industry-solutions/disaster-flood.html">Disaster &amp; Flood</a>
-      </div>
-      <div class="footer-col">
-        <h4>Data Sources</h4>
-        <a href="data-sources/enhanced-visual.html">Enhanced Visual</a>
-        <a href="data-sources/enhanced-multispectral.html">Enhanced Multispectral</a>
-        <a href="data-sources/sar.html">SAR</a>
-        <a href="data-sources/elevation.html">Elevation (DEM)</a>
-        <a href="data-sources/aerial.html">Aerial</a>
-        <a href="data-sources/basemap.html">Basemap</a>
-        <a href="data-sources/nightlight.html">Nightlight</a>
-      </div>
-      <div class="footer-col">
-        <h4>Platform</h4>
-        <a href="gallery.html">Gallery</a>
-        <a href="insights.html">Insights</a>
-        <a href="contact.html">Contact</a>
-      </div>
-      <div class="footer-col">
-        <h4>Company</h4>
-        <a href="corridor-watching.html">Corridor Watching</a>
-        <a href="illegal-construction.html">Illegal Construction</a>
-        <a href="mailto:contact@skyspera.com">contact@skyspera.com</a>
-      </div>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a href="index.html" class="brand">
+        <img src="assets/img/mark-white.png" alt="SkySpera">
+        <span class="brand-text"><span class="brand-name">SkySpera</span><span class="brand-sub">Earth intelligence</span></span>
+      </a>
     </div>
-    <div class="footer-bottom">
-      <span>© 2026 SkySpera</span>
-      <span>Earth intelligence, continuously updated.</span>
+    <div class="footer-col">
+      <h4>Industry Solutions</h4>
+      <a href="industry-solutions/mining-exploration.html">Mining &amp; Exploration</a>
+      <a href="industry-solutions/agriculture.html">Agriculture</a>
+      <a href="industry-solutions/fire-civil-protection.html">Fire &amp; Civil Protection</a>
+      <a href="industry-solutions/water-utilities.html">Water &amp; Utilities</a>
+      <a href="industry-solutions/infrastructure-construction.html">Infrastructure &amp; Construction</a>
+      <a href="industry-solutions/disaster-flood.html">Disaster &amp; Flood</a>
     </div>
+    <div class="footer-col">
+      <h4>Data Sources</h4>
+      <a href="data-sources/enhanced-visual.html">Enhanced Visual</a>
+      <a href="data-sources/enhanced-multispectral.html">Enhanced Multispectral</a>
+      <a href="data-sources/sar.html">SAR</a>
+      <a href="data-sources/elevation.html">Elevation (DEM)</a>
+      <a href="data-sources/aerial.html">Aerial</a>
+      <a href="data-sources/basemap.html">Basemap</a>
+      <a href="data-sources/nightlight.html">Nightlight</a>
+    </div>
+    <div class="footer-col">
+      <h4>Platform</h4>
+      <a href="gallery.html">Gallery</a>
+      <a href="insights.html">Insights</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="index.html">Home</a>
+      <a href="corridor-watching.html">Corridor Watching</a>
+      <a href="illegal-construction.html">Illegal Construction</a>
+      <a href="mailto:contact@skyspera.com">contact@skyspera.com</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 SkySpera.</span>
+    <span>Earth intelligence</span>
   </div>
 </footer>
 
