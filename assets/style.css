@@ -103,11 +103,11 @@ h2.sec{font-size:clamp(28px,3.6vw,44px);letter-spacing:-1px;margin:12px 0 12px;f
 .hero-fig{margin:0}
 .hero-fig figcaption{color:var(--dim);font-size:13px;text-align:center;margin:10px 0 0;padding:0 24px}
 /* use-case pages — related product links */
-.mini-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
-.mini-card{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;align-items:center;gap:12px;padding:10px;transition:.15s}
+.mini-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.mini-card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;align-items:center;gap:16px;padding:12px;transition:.15s}
 .mini-card:hover{border-color:var(--accent)}
-.mini-card .thumb{width:52px;height:52px;border-radius:8px;background-size:cover;background-position:center;flex-shrink:0}
-.mini-card h3{font-size:13.5px;margin:0;font-weight:600;line-height:1.3;color:var(--ink)}
+.mini-card .thumb{width:96px;height:96px;border-radius:10px;background-size:cover;background-position:center;flex-shrink:0}
+.mini-card h3{font-size:15px;margin:0;font-weight:600;line-height:1.35;color:var(--ink)}
 .detail-hero h1{font-size:clamp(32px,5vw,56px);margin:14px 0 0;letter-spacing:-1px;font-weight:800}
 .blocks{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:12px}
 .block{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:24px}
@@ -145,13 +145,13 @@ footer{border-top:1px solid var(--line);background:var(--bg2);margin-top:20px}
   .nav-toggle-input:checked~.nav-links{display:flex}
 }
 /* product detail extras */
-.prose p{color:var(--muted);font-size:15.5px;line-height:1.7;margin:0 0 16px;max-width:760px}
+.prose p{color:var(--muted);font-size:18px;line-height:1.7;margin:0 0 18px;max-width:800px}
 .prose p:last-child{margin-bottom:0}
-h3.sub{font-size:20px;margin:0 0 6px;font-weight:800;letter-spacing:-.3px}
+h3.sub{font-size:20px;margin:0 0 14px;font-weight:800;letter-spacing:.5px;text-transform:uppercase}
 .list{margin:0;padding:0;list-style:none;max-width:720px}
 .list li{position:relative;padding:8px 0 8px 22px;color:var(--muted);font-size:15px;line-height:1.5}
 .list li:before{content:"—";position:absolute;left:0;color:var(--accent)}
-.samples{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin-top:8px}
+.samples{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;margin-top:8px}
 .sample{margin:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--panel)}
 .sample img{width:100%;aspect-ratio:4/3;object-fit:cover}
 .sample figcaption{padding:11px 14px;color:var(--muted);font-size:13px;font-weight:600;letter-spacing:.3px}
