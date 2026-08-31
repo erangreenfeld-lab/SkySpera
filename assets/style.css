@@ -145,7 +145,7 @@ footer{border-top:1px solid var(--line);background:var(--bg2);margin-top:20px}
   .nav-toggle-input:checked~.nav-links{display:flex}
 }
 /* product detail extras */
-.prose p{color:var(--muted);font-size:18px;line-height:1.7;margin:0 0 18px;max-width:800px}
+.prose p{color:var(--muted);font-size:18px;line-height:1.7;margin:0 0 18px}
 .prose p:last-child{margin-bottom:0}
 h3.sub{font-size:20px;margin:0 0 14px;font-weight:800;letter-spacing:.5px;text-transform:uppercase}
 .list{margin:0;padding:0;list-style:none;max-width:720px}
