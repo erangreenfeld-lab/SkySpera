@@ -151,8 +151,11 @@ h3.sub{font-size:20px;margin:0 0 14px;font-weight:800;letter-spacing:.5px;text-t
 .list{margin:0;padding:0;list-style:none;max-width:720px}
 .list li{position:relative;padding:8px 0 8px 22px;color:var(--muted);font-size:15px;line-height:1.5}
 .list li:before{content:"—";position:absolute;left:0;color:var(--accent)}
-.samples{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;margin-top:8px}
+.samples{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:8px}
 .sample{margin:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--panel)}
 .sample img{width:100%;aspect-ratio:4/3;object-fit:cover}
-.sample figcaption{padding:11px 14px;color:var(--muted);font-size:13px;font-weight:600;letter-spacing:.3px}
+.sample figcaption{padding:9px 12px;color:var(--muted);font-size:12px;font-weight:600;letter-spacing:.3px}
+@media(max-width:1024px){.samples{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:760px){.samples{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.samples{grid-template-columns:1fr}}
 .section-gap{margin-top:8px}
